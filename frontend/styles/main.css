@@ -1,0 +1,603 @@
+header {
+    border-bottom: 1px solid #e9ecef;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-brand img {
+    max-height: 80px;
+}
+
+.nav-item {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+.nav-item.active {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    color: #FCBB3A !important;
+}
+
+ul li a {
+    color: #000000 !important;
+}
+
+ul li a:hover {
+    color: #FCBB3A !important;
+}
+
+.nav-item .nav-link.active {
+    font-weight: bold;
+    color: #FCBB3A !important;
+}
+
+/* Hero Banner */
+section.hero-banner {
+    margin-bottom: 8rem;
+}
+
+section h1 {
+    font-size: 62px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 110%;
+    color: #171938;
+    
+}
+
+section h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    color: #171938;
+}
+
+section p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 110%;
+    color: #171938;
+}
+
+section .btn-cta {
+    background-color: #FCBB3A;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    left: 115px;
+    border-radius: 0px 18px 18px 0px;
+}
+
+section .btn-cta:hover {
+    background-color: #fca800;
+}
+
+section .banner-logo {
+    position:absolute ;
+    width: 70px;
+}
+
+section .banner-img {
+    margin: -110px 0 0 0;
+    
+    max-width: 480px;
+}
+section .banner-img-frame {
+    margin: -90px 0 0 40px;
+    z-index: 1;
+    max-width: 480px;
+}
+section .banner-img-frame-1 {
+    margin: -70px 0 0 20px;
+    max-width: 480px;
+}
+
+.card {
+    height: 100%;
+}
+
+/* Categories */
+section.categories {
+    margin-bottom: 5rem;
+}
+
+.component-categories {
+    margin-bottom: 20px;
+}
+
+.component-categories:hover {
+    text-decoration: none;
+}
+
+.tag {
+    z-index: 3;
+    background-color: #FCBB3A;
+    padding: .25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    color: white;
+    min-height: 30px;
+    border-radius: 0px 20px;
+    
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #171938;
+}
+
+.categories-thumbnail {
+    width: 100%;
+    height: 462px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.categories-thumbnail:hover .categories-image {
+    transform: scale(1.1);
+}
+
+.categories-thumbnail-small {
+    width: 100%;
+    height: 215px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.categories-thumbnail-small:hover .categories-image {
+    transform: scale(1.1);
+}
+
+.categories-image {
+    width: 100%;
+    height: 100%;
+
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+
+/* Products */
+section.popular-products {
+    margin-bottom: 5rem;
+    background-color: rgba(23, 25, 56, 0.06);
+}
+
+.component-products {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: #000000;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+
+.products-image {
+    padding: 0.5rem;
+
+    border-radius: 8px 8px 0px 0px;
+    background: #F6FAFD;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+
+.products-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 110%;
+    text-align: center;
+    color: #171938;
+}
+
+.products-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 110%;
+    text-align: center;
+    color: #E98015;
+}
+
+/* Testimonial */
+.testimonial {
+    margin-bottom: 5rem;
+}
+
+.testimonial-hero-image {
+    z-index: 1;  
+    margin: 30px 0px 0px 30px;
+    width: 365px;
+    height: 500px;
+}
+
+.testimonial-frame {
+    width: 365px;
+    height: 500px;
+}
+
+.stars img{
+    width: 180px;
+}
+
+.testimonial-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #152C5B;
+}
+
+.testimonial-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #B0B0B0;
+}
+
+.btn-testimonial {
+    background-color: #FCBB3A;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border-radius: 4px;
+}
+
+/* Footer */
+.footer {
+    height: 310px;
+    background-color: rgba(23, 25, 56, 0.06);
+}
+
+.footer img {
+    width: 45px;
+    height: 40px;
+}
+
+.footer-tag {
+    text-align: right;
+}
+
+.footer-tag h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+
+    color: #152C5B;
+}
+
+.footer-tag p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+
+    color: #B0B0B0;
+}
+
+.footer-copyright {
+    background-color: #171938;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+footer {
+    background-color: #171938;
+}
+
+footer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+footer p a{
+    font-weight: 500;
+    color: #FCBB3A;
+    transition: all 0.2s ease-in-out;
+}
+
+footer p a:hover{
+    text-decoration: none;
+    font-weight: 500;
+    color: #f8a90b;
+    transform: scale(1.1);
+}
+
+/* Breadcrumb */
+.bike-breadcrumbs .breadcrumb{
+    background: transparent;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.breadcrumb-item a{
+    font-weight: 500;
+    color: #C4C4C4;
+}
+
+.breadcrumb-item.active{
+    font-weight: 500;
+    color: #171938;
+}
+
+.xzoom-container {
+    display: block;
+}
+
+.xzoom-container .xzoom {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.xzoom-gallery {
+    border-radius: 10px;
+}
+
+.bike-heading {
+    margin-top: 50px;
+}
+
+.bike-heading h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #152C5B;
+}
+
+.bike-heading p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    color: #B0B0B0;
+
+}
+
+.bike-heading .card {
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+}
+
+.bike-heading .booking-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #152C5B;
+}
+
+.bike-heading .booking-price {
+    font-weight: 500;
+    font-size: 36px;
+    color: #1ABC9C;
+}
+
+.bike-heading .subtitle {
+    color: #152C5B;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.bike-heading .input-number .input-group{
+    background-color: white;
+}
+
+.bike-heading .input-group-text{
+    border: 0;
+    cursor: pointer;
+    color: white;
+    padding: 0;
+    border-radius: 4px !important;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.bike-heading .input-group-text.minus{
+    background-color: #E74C3C;
+}
+
+.bike-heading .input-group-text.plus{
+    background-color: #1ABC9C;
+}
+
+.bike-heading .input-group .form-control{
+    border: 1;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: none;
+    background-color: #F5F6F8;
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+    text-align: center;
+}
+
+.bike-heading .btn-booking {
+    background-color: #3252DF;
+    border-radius: 4px;
+}
+
+.bike-heading .btn-booking:hover {
+    background-color: #142fa7;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+}
+
+.booking-page-1{
+    margin-bottom: 160px;
+}
+
+.stepper {
+    margin-top: 61px;
+    margin-bottom: 44px;
+}
+
+.title-booking {
+    color: #152C5B;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.subtitle-booking {
+    color: #B0B0B0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.brand-book {
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #152C5B;
+}
+.price-book {
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 60px;
+    color: #152C5B;
+}
+
+.form-booking label{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #152C5B;
+}
+
+.form-booking .input-group {
+    background-color: white;
+}
+
+.form-booking .input-group .form-control{
+    border: 0;
+    background: #F5F6F8;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: none;
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+}
+.form-booking .input-group .custom-file .custom-file-input{
+    border: 0;
+    background: #F5F6F8;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: none;
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+}
+
+.form-booking .input-group .form-control::placeholder{
+    background: #F5F6F8;
+}
+
+.btn-continue-booking {
+    border: 0;
+    color: #000000;
+    background: #FCBB3A;
+    border-radius: 5px;
+}
+.btn-continue-booking:hover {
+    color: #000000;
+    background: #f0aa1e;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.btn-cancel-booking {
+    margin-top: 5px;
+    border: 0;
+    color: #B3B3B3;
+    background: #F5F6F8;
+    border-radius: 5px;
+}
+.btn-cancel-booking:hover {
+    color: #000000;
+    background: #cdcdcd;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.images img{
+    margin-top: 30px;
+} 
+
+.world p {
+    color: #C4C4C4;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+
+    text-align: center;
+
+    margin-top: 100px;
+    margin-bottom: 20px;
+}

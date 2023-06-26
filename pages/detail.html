@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../frontend/libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../frontend/styles/main.css">
+    <link rel="stylesheet" href="../frontend/libraries/xzoom/xzoom.css">
+    
+    <title>Detail</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../frontend/images/bikestore.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Products</a>
+            </li>
+          </ul>
+          <!-- Desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link mt-2" id="navbarDropdown" role="button" data-toggle="dropdown">
+                <img src="../frontend/images/icon_user.png" alt="icon user" class="rounded-circle mr-2 profile-picture">
+                Hi, dani 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link d-inline-block">
+                <img src="../frontend/images/ic_cart.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <div class="page-content page-details">
+    <section class="bike-breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="">Home</a>
+                </li>
+                <li class="breadcrumb-item active">
+                  Product Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bike-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-md-8">
+            <div class="xzoom-container">
+              <img 
+                src="../frontend/images/product-details-1.png" 
+                class="xzoom w-100 main-image d-block" 
+                id="xzoom-default"
+                xoriginal="../frontend/images/product-details-1.png">
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="xzoom-thumbs">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/product-details-1.png" class="xzoom-gallery w-100" xpreview="../frontend/images/product-details-1.png">
+              </a>
+              <a href="../frontend/images/product-details-2.png">
+                <img src="../frontend/images/product-details-2.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/product-details-2.png">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/product-details-1.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/product-details-1.png">
+              <a href="../frontend/images/product-details-2.png">
+                <img src="../frontend/images/product-details-2.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/product-details-2.png">
+              </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bike-heading mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>About the bike</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt fuga perspiciatis, asperiores at dolorum non sit placeat doloribus aliquam nemo voluptatum saepe ducimus itaque repudiandae cum quas pariatur temporibus tempore, eaque explicabo quis accusamus. Porro eveniet perspiciatis doloremque minima voluptatibus, architecto beatae a consectetur maiores ad velit iure minus nemo recusandae quia similique incidunt, itaque vitae facere dolorum exercitationem. Nesciunt reprehenderit sint commodi eum dolores. Repudiandae minima, aut veritatis non quo reprehenderit sequi odit ab excepturi dolor ipsum, hic harum ea tempore. Architecto in culpa tenetur necessitatibus molestiae explicabo quo aspernatur corporis voluptas id quae iure doloremque, beatae voluptatum et.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bordered p-5">
+              <h5 class="booking-title">Booking Bike</h5>
+              <h2 class="booking-price">Rp100.000.000</h2>
+              <p class="mb-0 subtitle">color</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="size">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      <img src="../frontend/images/arrow.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="mb-0 subtitle">Size</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text minus">
+                      -
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="size">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      +
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="bookingpage1.html" class="btn btn-md btn-dark btn-block mt-5 btn-booking">Continue to Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Akhir Page Content -->
+
+  <!-- Popular Products -->
+  <section class="popular-products">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="mb-5 mt-5">Popular Products</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/speach-stealth.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              Speach Stealth
+            </div>
+            <div class="products-price">
+              $333,33
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/spectral-mountain.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              Spectral Mountain
+            </div>
+            <div class="products-price">
+              $350
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/spectral-mountain.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              lixada-ultra
+            </div>
+            <div class="products-price">
+              $50
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/noriss.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              Norus Nexx 3.0
+            </div>
+            <div class="products-price">
+              $250
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/speach-stealth.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              Speach Stealth
+            </div>
+            <div class="products-price">
+              $333,33
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/spectral-mountain.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              Spectral Mountain
+            </div>
+            <div class="products-price">
+              $350
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/spectral-mountain.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              lixada-ultra
+            </div>
+            <div class="products-price">
+              $50
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="#" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/noriss.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              Norus Nexx 3.0
+            </div>
+            <div class="products-price">
+              $250
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="testimonial">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <div class="testimonial-hero">
+            <img src="../frontend/images/testimonial-hero.png" alt="Testimonial" class="position-absolute testimonial-hero-image">
+            <img src="../frontend/images/testimonial-frame.png" alt="Testimonial" class="testimonial-frame">
+          </div>
+        </div>
+        <div class="colfa-rotate-180 col-md-4 ml-5">
+          <div class="stars align-items-center">
+            <img src="../frontend/images/stars.png" alt="">
+          </div>
+          <h2 class="testimonial-text">BIKESTORE "GOES TO CAMPUS" X UIR....</h2>
+          <p class="testimonial-name
+          ">Johan, Programmer</p>
+          
+          <a href="detail.html" class="btn btn-testimonial mt-5">
+            Read Story
+          </a>
+        </div>
+      </div>
+    </div><br><br><br>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1 class="mt-5 text-uppercase">Bikestore</h1>
+          <div class="d-flex flex-row">
+            <img src="../frontend/images/icon-ig.png">
+            <img src="../frontend/images/icon-fb.png"  class="ml-2">
+            <img src="../frontend/images/icon-youtube.png"  class="ml-3">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="footer-tag mt-5">
+            <h3>Address</h3>
+            <p>Jl. Kaharuddin Nasution No.01, <br>
+              Kecamatan Marpoyan Damai, Pekanbaru, Riau 28282 <br>0812-1234-578
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="pt-3">
+            2022 Copyright <a href="#">Bikestore</a>. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+
+
+  <script src="../frontend/libraries/jquery-3.6.0.min.js"></script>
+  <script src="../frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="../frontend/libraries/xzoom/xzoom.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".xzoom, .xzoom-gallery").xzoom({
+        zoomWidth: 450,
+        title: false,
+        tint: "#333",
+        Xoffset: 20,
+      });
+    });
+  </script>
+</body>
+</html>
